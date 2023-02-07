@@ -66,15 +66,15 @@ body{
     margin-left: -200px;
     transform: rotateZ(10deg);
     }
-    50%{
+    45%{
     filter: opacity(1);
     margin-left: 200px;
-    transform: rotateZ(-10deg);
+    transform: rotateZ(0deg);
     }
-    51%{
+    55%{
         filter: opacity(1);
     margin-left: 200px;
-    transform: rotateZ(10deg);
+    transform: rotateZ(0deg);
     }
     100%{
         filter: opacity(0);
