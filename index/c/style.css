@@ -19,6 +19,39 @@ body{
     height: 40px;
     width: 40px;
     margin: 10px;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+}
+@keyframes blink{
+    0%{
+        filter: opacity(0);
+    }
+    2%{
+        filter: opacity(1);
+    }
+    4%{
+        filter: opacity(0);
+    }
+    5%{
+        filter: opacity(1);
+    }
+    10%{
+        filter: opacity(1);
+    }
+    30%{
+        filter: opacity(0);
+    }
+    35%{
+        filter: opacity(1);
+    }
+    40%{
+        filter: opacity(0);
+    }
+    100%{
+        filter: opacity(1);
+    }
 }
 .nav_head{
     animation-name: illusion;
