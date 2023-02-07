@@ -151,6 +151,11 @@ body{
 .heading{
     text-align: center;
 }
+.heading>h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
 .tv{
     display: flex;
     flex-direction: row;
@@ -160,7 +165,7 @@ body{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    background: -webkit-linear-gradient(90deg, rgb(74, 75, 73)50%, rgb(0,0,0)100%);
+    background: -webkit-linear-gradient(90deg, rgb(74, 75, 73)30%, rgb(0,0,0)100%);
 }
 .table1_1{
     gap: 10px;
