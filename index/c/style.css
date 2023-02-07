@@ -162,6 +162,7 @@ body{
     grid-gap: 10px;
 }
 .table1{
+    padding: 10px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -181,4 +182,25 @@ body{
     border-radius: 5px;
     width: 40px;
     height: 50px;
+}
+.table2{
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background: -webkit-linear-gradient(90deg, rgb(74, 75, 73)30%, rgb(0,0,0)100%);
+}
+.table3{
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background: -webkit-linear-gradient(90deg, rgb(74, 75, 73)30%, rgb(0,0,0)100%);
+}
+.table4{
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background: -webkit-linear-gradient(90deg, rgb(74, 75, 73)30%, rgb(0,0,0)100%);
 }
