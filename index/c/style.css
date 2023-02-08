@@ -140,6 +140,9 @@ body{
     width: 200px;
     height: 300px;
 }
+.card_1>img:hover{
+    filter: brightness(60%);
+}
 .tables{
     justify-content: center;
     display: flex;
@@ -151,6 +154,7 @@ a{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 .heading{
     text-align: center;
@@ -184,6 +188,9 @@ a{
     /* border: 1px solid white; */
     justify-content: space-between;
 }
+.table1_1:hover{
+    filter: brightness(60%);
+}
 .table1_1>img{
     border-radius: 5px;
     width: 40px;
@@ -209,4 +216,28 @@ a{
     display: flex;
     flex-direction: column;
     background: -webkit-linear-gradient(90deg, rgb(74, 75, 73)30%, rgb(0,0,0)100%);
+}
+h1{
+    font-family: 'Kaushan Script', cursive; 
+    padding: 30px; 
+}
+.New{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 10px;
+}
+.new_1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+.new_1>a{
+    text-align: center;
+}
+.new_1>img:hover{
+    filter: brightness(60%);
 }
