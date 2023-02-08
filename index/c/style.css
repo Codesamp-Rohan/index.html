@@ -27,12 +27,12 @@ body{
     background-color: #000000;
     font-size: 15px;
     color: black;
-    letter-spacing: 3px;
+    letter-spacing: -1px;
     transition: 300ms;
 }
 #btn:hover{
-    letter-spacing: -1px;
-    text-decoration: line-through;
+    letter-spacing: 3px;
+    text-decoration: underline;
 }
 .logo{
     height: 40px;
