@@ -60,6 +60,10 @@ button{
     background-color: #d0e876;
     border: 0px;
 }
+button>a{
+    color: black;
+}
 h3{
     font-size: 17px;
+    font-weight: 400;
 }
