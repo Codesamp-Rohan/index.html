@@ -32,7 +32,6 @@ a{
     margin-top: 14%;
     padding: 30px;
     background-color: rgb(60, 56, 56);
-    /* margin-left: 33%; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
