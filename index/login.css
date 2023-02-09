@@ -9,7 +9,6 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
-    background-image: url("c/images/anime.jpg");
 }
 h1{
     letter-spacing: 1px;
@@ -29,7 +28,7 @@ a{
     height: 20px;
 }
 .container{
-    margin-top: 14%;
+    margin-top: 10%;
     padding: 30px;
     background-color: rgb(60, 56, 56);
     display: flex;
