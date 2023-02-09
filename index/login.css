@@ -83,3 +83,7 @@ h3{
         width: 324px;
     }
 }
+img{
+    width: 300px;
+    height: auto;
+}
