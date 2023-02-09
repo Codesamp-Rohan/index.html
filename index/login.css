@@ -53,6 +53,14 @@ a{
     flex-wrap: wrap;
     gap: 30px;
 }
+.background-image{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
 button{
     width: 374px;
     height: 40px;
@@ -81,9 +89,9 @@ h3{
     button{
         width: 324px;
     }
-}
+}/*
 img{
     width: 300px;
     height: auto;
     filter: brightness(50%);
-}
+}*/
