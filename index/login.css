@@ -60,7 +60,7 @@ button{
     background-color: #d0e876;
     border: 0px;
 }
-button>a{
+.button>a{
     color: black;
 }
 h3{
